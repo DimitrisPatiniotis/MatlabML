@@ -6,7 +6,7 @@
 clear all; close all; clc
 
 
-X=load('kmeans.dat'); 
+X=load('datasets/kmeans.dat'); 
 K=3; % number of centroids
 n=size(X) % check the data size
 max_iterations = 10; % if this number is too low a warning will be displayed stating that the algorithm did not converge, which you should expect since the software only implemented one iteration.

@@ -7,7 +7,8 @@
 %
 
 clear all; close all; clc;
-x = load('linear_regressionx.dat'); y = load('linear_regressiony.dat');
+x = load('datasets/linear_regressionx.dat');
+ y = load('datasets/linear_regressiony.dat');
 
 m = length(y); % number of data points = 50
 
@@ -79,7 +80,7 @@ scatter(x,y)
 plot(x2(:,2), x2*theta, '-')
 ylabel('Y: Height (meters)')
 xlabel('X: Age (years)')
-title({'Simple Linear Regression using SGD method (iter=150)'});
+title({'Simple Linear Regression using SGD method (iter=1500)'});
 hold off
 
 

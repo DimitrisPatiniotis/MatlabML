@@ -8,8 +8,8 @@
 
 clear all; close all; clc
 
-x = load('mv_regressionx.dat'); 
-y = load('mv_regressiony.dat');
+x = load('datasets/mv_regressionx.dat'); 
+y = load('datasets/mv_regressiony.dat');
 
 m = length(y);
 
